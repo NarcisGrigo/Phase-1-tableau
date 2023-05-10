@@ -1,0 +1,78 @@
+td {
+    width: 24px;
+    height: 17px;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+.blanc {
+    background-color: white;
+}
+
+.noir {
+    background-color: black;
+}
+
+.maron {
+    background-color: rgb(88, 49, 3);
+}
+
+.maronlight {
+    background-color: rgb(136, 102, 58);
+}
+
+.skin {
+    background-color: rgba(255, 204, 184, 0.815);
+}
+
+.skin2{
+    background-color: rgb(240, 179, 155);
+}
+
+.vert1{
+    background-color: rgb(8, 92, 8);
+}
+
+.vert2{
+    background-color: rgb(47, 83, 47);
+}
+
+.vert3{
+    background-color: rgb(12, 51, 12);
+}
+
+.vert4{
+    background-color: rgb(108, 202, 108);
+}
+
+.bej{
+    background-color: rgb(252, 231, 206);
+}
+
+.bej2{
+    background-color: rgb(247, 236, 224);
+}
+
+.gold{
+    background-color: gold;
+}
+
+.maron3{
+    background-color: rgb(145, 66, 3);
+}
+
+.maron4{
+    background-color: rgb(180, 85, 7);
+}
+
+.maron5{
+    background-color: rgb(128, 83, 1);
+}
+
+.maron6{
+    background-color: rgba(199, 109, 5, 0.74);
+}
