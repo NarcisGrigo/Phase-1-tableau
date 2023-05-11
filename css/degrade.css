@@ -1,0 +1,19 @@
+.dot {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, rgb(167, 19, 204), blue , rgb(135, 204, 228));
+  margin:auto;
+  float:left;
+}
+
+.dot2 {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, violet, rgb(135, 204, 228));
+  margin:auto;
+  float:left;
+}

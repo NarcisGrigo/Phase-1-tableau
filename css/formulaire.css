@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(218, 192, 243);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fname {
+  background-color: lavender;
+  float: left;
+  width: 177px;
+}
+
+.lname {
+  background-color: lavender;
+  float: left;
+  width: 177px;
+}
+
+.password {
+  background-color: lavender;
+  float: left;
+  width: 177px;
+}
+
+.email {
+  background-color: lavender;
+  float: left;
+  width: 177px;
+}
+
+.file {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reset {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

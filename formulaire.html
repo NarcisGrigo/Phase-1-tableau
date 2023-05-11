@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>Ici header</header>
+    <nav>
+      <ul>
+        <li><a href="./balises.html" target="_blank">Balises</a></li>
+        <li><a href="./emmet.html">Emmet</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form action="index.html" method="post">
+        <div>
+          <!---Nom de famille--->
+          <!---obligé--->
+          <br /><label for="fname" class="fname">First name</label><br />
+          <input type="text" id="fname" name="fname" required />
+          <!--------->
+          <!---Prénom--->
+          <!---obligé--->
+          <br /><label for="lname" class="lname">Last name</label><br />
+          <input type="text" id="lname" name="lname" required />
+          <!--------->
+          <!---Mot de passe--->
+          <!---obligé--->
+          <br /><label for="password" class="password">Password</label><br />
+          <input type="password" id="password" name="password" required />
+          <!--------->
+          <!---Email--->
+          <!---obligé--->
+          <br /><label for="email" id="email" class="email">Mail</label><br />
+          <input type="email" id="email" name="email" required /><br />
+          <!--------->
+          <!---Fichier--->
+          <br /><input type="file" class="file" /><br />
+          <br /><button type="submit" class="submit">Submit</button><br />
+          <!--------->
+          <br /><input type="reset" class="reset" /><br />
+        </div>
+        <!--------->
+        <br /><label><h3>What is the destination of your choice ?</h3></label>
+        <!--------->
+        <div>
+          <fieldset class="fieldset1">
+            <!---Button radio--->
+            <!---une seule choix--->
+            <input type="radio" id="USA" name="chk" />
+            <label for="USA" class="button">USA</label>
+            <input type="radio" id="Roumania" name="chk" />
+            <label for="Roumania" class="button">Roumania</label>
+            <input type="radio" id="Greece" name="chk" />
+            <label for="Greece" class="button">Greece</label>
+          </fieldset>
+        </div>
+        <!--------->
+        <label><h3>Who will accompany you ?</h3></label>
+        <!--------->
+        <div>
+          <fieldset class="fieldset2">
+            <!---Button checkbox--->
+            <!---choix multiples--->
+            <input type="checkbox" id="Family" name="Family" />
+            <label for="Family" class="button">Family</label>
+            <input type="checkbox" id="Friends" name="Friends" />
+            <label for="Friends" class="button">Friends</label>
+            <input type="checkbox" id="Alone" name="Alone" />
+            <label for="Alone" class="button">Alone</label>
+            <input type="checkbox" name="Alone" id="Alone" />
+          </fieldset>
+          <label for="comments">Comments</label><br />
+          <textarea name="comments" id="comments" cols="80" rows="8"></textarea>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

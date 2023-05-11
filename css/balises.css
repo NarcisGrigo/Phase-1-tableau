@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(241, 185, 79);
+}
+
+header{
+    background-color: red;
+    height: 90px;
+}
+
+.aaa{
+    background-color: khaki;
+}
+
+.bbb{
+    background-color: blue;
+}
+
+.ccc{
+    background-color: yellow;
+}
+
+.ddd{
+    background-color: blue;
+    height: 72px;
+}
+
+.eee{
+    background-color: yellow;
+    height: 65px;
+}
+
+.fff{
+    background-color :peru;
+    height: 50px;
+}
+
+.ggg{
+    background-color: saddlebrown;
+    height: 90px;
+}
+
+.hhh{
+    background-color: blue;
+    height: 150px;
+}
+
+footer{
+    background-color: khaki;
+    height: 150px;
+}
+

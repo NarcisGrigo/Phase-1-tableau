@@ -1,0 +1,41 @@
+body {
+    background-color: lavender;
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+header {
+    background-color: #8e3557;
+    text-align: center;
+    height: 80px;
+    padding-top: 6px;
+}
+
+main {
+    text-align: center;
+}
+
+nav {
+    background-color:  #4a1a2c;
+    height: 40px;
+    padding-top: 6px;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: #8e3557;
+    text-align: center;
+    height: 80px;
+    padding-top: 6px;
+}
+
+section{
+    background-color: #e6e2af;
+    border: 20px solid #787746,;
+    height: 600px;
+}
+
+p{
+    color: white;
+}
